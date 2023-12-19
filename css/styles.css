@@ -216,9 +216,6 @@ body {
 .checkbox-input:checked + .user-privacy-text span:first-child {
   background-color: var(--pressed-state, #404bbf);
   border: none;
-}
-
-.checkbox-input:checked + .user-privacy-text span:first-child svg {
   fill: var(--modal-overlay, #f4f4f4);
 }
 
