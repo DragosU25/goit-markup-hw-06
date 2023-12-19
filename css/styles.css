@@ -211,6 +211,7 @@ body {
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .check-box-input:checked + .label-span {
@@ -657,18 +658,18 @@ body {
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
-  line-height: 24px; /* 200% */
-  letter-spacing: 0.48px;
+  line-height: 1.5em;
+  letter-spacing: 0.04em;
   padding-left: 16px;
 }
 input[placeholder="E-mail"] {
   color: var(--mmodal-background, #ffffff);
 }
 .submit-button {
+  min-width: 165px;
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 16px;
   padding: 8px 24px;
   border-radius: 4px;
   background: var(--primary-brand, #4d5ae5);
